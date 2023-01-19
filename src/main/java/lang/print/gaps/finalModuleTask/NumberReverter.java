@@ -7,6 +7,7 @@ public class NumberReverter {
         number = number/10;
         remainder = number%10;
         reverse = reverse*10+remainder;
+        number = number/10;
         reverse = reverse*10+number;
         number = reverse;
     }
