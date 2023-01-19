@@ -8,6 +8,6 @@ public class DigitsSumCalculator {
         number = number/10;
         int third = number%10;
         number = number/10;
-        number = first+second+third+number;
+        System.out.println(first+second+third+number);
     }
 }
